@@ -14,8 +14,8 @@
 	<meta charset="UTF-8">
 	<title>DPS Rescue</title>
 	<script src="js/jquery-2.1.1.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 	<!-- <div> -->
@@ -74,7 +74,7 @@
 			<div class="container">
 				<h2 class="col-xs-12"><a href="adopt.php?id=1111">FEATURED DOG</a></h2>
 				<div class="col-lg-6 col-xs-12"><a href="adopt.php?id=1111">
-					<img src="images/featured/levi.jpg">
+					<img src="images/featured/Levi.jpg">
 				</a></div>
 				<div class="col-lg-6 col-xs-12">
 					<p>This dog will be at the Palo Alto Pet Food Express on Sat. Jan. 31st-Feb. 1st from 11-4pm or until adopted. if interested, please fill out an application.</p>
