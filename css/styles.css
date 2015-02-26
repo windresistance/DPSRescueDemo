@@ -32,6 +32,9 @@ a:active {
 h2 a:hover {
 	text-decoration: none;
 }
+h3 a:hover {
+	text-decoration: none;
+}
 body {
 	/*width: 1600px;*/	/* FOR NON-RESPONSIVE VERSION */
 	margin: 0 auto;	 /* FOR NON-RESPONSIVE VERSION */
@@ -57,6 +60,7 @@ body {
 		text-align: center;
 		color: rgb(15,15,15);
 		background-color: White;
+		box-shadow: 0 0 10px Black;
 		z-index: 999;
 	}
 		#phone {
@@ -132,8 +136,6 @@ body {
 		#btn_container .button:last-child {
 			margin-right: 0;
 		}
-			#btn_container .button div {
-			}
 			#btn_container .button:hover {
 				cursor: pointer;
 				background-color: rgba(255,255,255,0.9);

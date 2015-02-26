@@ -57,31 +57,25 @@
 	<div id="overlay">
 		<h1>DOGGIE PROTECTIVE SERVICES</h1>
 		<div id="btn_container">
-			<a class="button in_blk" href="javascript:void(0);">
-				<div>ADOPT</div>
-			</a>
-			<a class="button in_blk" href="javascript:void(0);">
-				<div>FOSTER</div>
-			</a>
-			<a class="button in_blk" href="javascript:void(0);">
-				<div>DONATE</div>
-			</a>
+			<a class="button in_blk" href="javascript:void(0);">ADOPT</a>
+			<a class="button in_blk" href="javascript:void(0);">FOSTER</a>
+			<a class="button in_blk" href="javascript:void(0);">DONATE</a>
 		</div>
 	</div>
 	
 	<div id="intro" class="">
 		<div class="container">
 			<div class="introBlk col-xs-4">
-				<h4 class="introBlkTitle"><a href="javascript:void(0);">ABOUT US</a></h4>
+				<h3 class="introBlkTitle"><a href="javascript:void(0);">ABOUT US</a></h3>
 				<p>We are a 501(c)(3) non-profit, volunteer-driven, animal rescue organization. All of our animals live in a network of foster homes from Southern California to Las Vegas to Northern California.</p>
 			</div>
 			<div class="introBlk col-xs-4">
-				<h4 class="introBlkTitle"><a href="javascript:void(0);">HOW TO HELP</a></h4>
+				<h3 class="introBlkTitle"><a href="javascript:void(0);">HOW TO HELP</a></h3>
 				<p>There are lots of ways to help! We are always looking for foster parents and volunteers to help at events</p>
 				<p>Please see our <a href="javascript:void(0);">help page</a> to find out more.</p>
 			</div>
 			<div class="introBlk col-xs-4">
-				<h4 class="introBlkTitle"><a href="javascript:void(0);">CONTACT US</a></h4>
+				<h3 class="introBlkTitle"><a href="javascript:void(0);">CONTACT US</a></h3>
 				<p>Come see us at our <a href="javascript:void(0);">next event</a>!</p>
 				<p>Call us: 000-000-0000</br>
 				email: <a href="javascript:void(0);">info@dpsrescue.org</a></p>
