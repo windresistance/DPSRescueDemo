@@ -184,7 +184,7 @@
 					// fade bg imgs in and out
 					$(selector).fadeTo('slow', 0, function() {
 						$(this).css('background-image', 'url('+root+n+'.jpg)');
-					}).fadeTo('slow', 0.7);
+					}).fadeTo('slow', 0.9);
 				}
 				
 				setInterval(changeBackgroundImage, 4000);
