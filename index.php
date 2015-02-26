@@ -178,20 +178,22 @@
 			(function(){
 				var n = 0,
 					selector = '#hero',  // enter the target selector
-					root = 'images/main/',
-					imgUrl = root+'0.jpg';
+					root = 'images/main/';
 				
 				// set initial bg img
-				$(selector).css('background-image', 'url('+imgUrl+')');
+				$(selector).css('background-image', 'url('+root+'1.jpg)');
+				$(selector).css('background-image', 'url('+root+'2.jpg)');
+				$(selector).css('background-image', 'url('+root+'3.jpg)');
+				$(selector).css('background-image', 'url('+root+'4.jpg)');
+				$(selector).css('background-image', 'url('+root+'0.jpg)');
 				
 				function changeBackgroundImage() {
 					n++;
 					n = n % 5;	// (0 - 4)
-					imgUrl = root+n+".jpg"
 					
 					// fade bg imgs in and out
 					$(selector).fadeTo('slow', 0, function() {
-						$(this).css('background-image', 'url(' + imgUrl + ')');
+						$(this).css('background-image', 'url('+root+n+'.jpg)');
 					}).fadeTo('slow', 0.7);
 				}
 				
