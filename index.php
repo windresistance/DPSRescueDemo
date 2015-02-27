@@ -86,7 +86,7 @@
 	<div id="featured" class="">
 		<div class="container">
 			<h2 class="col-xs-12"><a href="javascript:void(0);">FEATURED DOG</a></h2>
-			<div class="col-lg-6 col-xs-12"><a href="javascript:void(0);">
+			<div class="featured-img col-lg-6 col-xs-12"><a href="javascript:void(0);">
 				<img src="images/featured/Levi.jpg">
 			</a></div>
 			<div class="col-lg-6 col-xs-12">
@@ -117,8 +117,8 @@
 			<h2 class="col-xs-12"><a href="javascript:void(0);">UPCOMING EVENTS</a></h2>
 			<?php foreach ($events as $event) { ?>
 				<!-- <div class="event"> -->
-				<div class="col-md-6 col-xs-12">
-					<div class="event">
+				<div class="col-lg-6 col-xs-12">
+					<div class="eventBox">
 						<p>
 							When:
 							<span class="event-date"><?= $event['date'];?></span>
@@ -142,7 +142,6 @@
 	
 	<div id="footer" class="">
 		<div class="container">
-			<!-- <h2 class="col-xs-12">FOLLOW US</h2> -->
 			<div class="col-xs-12">
 				<ul id="socialMedia" class="in_blk">
 					<li><a href="https://www.facebook.com/DPSRescue" target="_blank" title="Follow us on Facebook"><img src="css/icons/facebook.png" alt="facebook_icon"></a></li>

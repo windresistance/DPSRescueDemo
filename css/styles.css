@@ -29,6 +29,9 @@ a:active {
 	text-decoration: none;
 	color: rgb(100,100,200);
 }
+h2 {
+	margin-bottom: 30px;
+}
 h2 a:hover {
 	text-decoration: none;
 }
@@ -114,6 +117,7 @@ body {
 			1px -1px 0 Black,
 			-1px 1px 0 Black,
 			1px 1px 0 Black;
+	/*font-family: 'Lato', sans-serif;*/
 	}
 	#btn_container {
 		width: 1000px;
@@ -163,6 +167,9 @@ body {
 	/*background-color: #cdd3d7;*/  /* flat-ui 'silver' */
 	background-color: #ffffff;
 }
+	#featured .featured-img {
+		text-align: left;
+	}
 	#featured img:hover {
 		opacity: 0.7;
 	}
@@ -195,9 +202,9 @@ body {
 	/*background-color: #cdd3d7;*/  /* flat-ui 'silver' */
 	background-color: #ffffff;
 }
-	.event {
+	.eventBox {
 		margin: 20px inherit 20px inherit;
-		padding: 10px;
+		padding: 20px 25px 10px 25px;
 		background-color: #efefef;
 		color: Gray;
 	}
@@ -251,7 +258,17 @@ body {
 			margin-right: 20px;
 			color: gray;
 		}
-		
+
+@media (max-width: 1200px) {
+	h2 {
+		text-align: center;
+	}
+	#featured .featured-img {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}
+
 @media (max-width: 1080px) {
 	#hero {
 		/*-webkit-background-size: cover;*/
